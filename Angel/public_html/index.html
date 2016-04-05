@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Angel Cute</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Список вопросов</h2>
+            <ul class="list-group" id="QuestList">
+              <li class="list-group-item">Cras justo odio</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <span id="QuestIndex" style="display: none;"></span>
+            <h2 id="QuestTitle">Список вопрос не инициализировался</h2>
+            <div id="QuestForm">
+
+            </div>
+            
+            <ul class="list-group" id="QuestResultList" style="display: none;">
+
+            </ul>   
+            <a href="#" id="ButtonSaveTxt" style="display: none;">Сохранить результат в txt</a>
+            <!--
+            <a href="#" id="ButtonSaveXls" style="display: none;">Сохранить результат в xls</a>
+            -->
+            
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2015</p>
+      </footer>
+    </div>     
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/FileSaver.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
